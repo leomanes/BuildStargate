@@ -57,7 +57,7 @@
 <li>R3, R4, R6; Resistor;</li>
 <li>U16, U4 &ndash; IC sockets;</li>
 <li>U17 &ndash; Tang Nano 20K *</li>
-<img src="basic_parts.jpeg" width="600">
+<img src="basic_parts.jpg" width="600">
 </ul>
 <p><br /> * <strong>Make sure you program your Tang Nano 20K before running the &ldquo;COLD TEST 2&rdquo;. Refer to Palver&rsquo;s GitHub page:</strong></p>
 <p><strong>github.com/jabadiagm/MSXgoauldSD_tn20k</strong></p>
