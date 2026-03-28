@@ -55,7 +55,7 @@
 <li>Solder the oscillator Y1;</li>
 <li>Close the solder jumpers JP2 and JP3 (right below the oscillator);</li>
 <li>R3, R4, R6; Resistor;</li>
-<li>U16, U4 &ndash; IC sockets;</li>
+<li>U16, U4 &ndash; IC/sockets;</li>
 <li>U17 &ndash; Tang Nano 20K *</li>
 <img src="basic_parts.jpg" width="600">
 </ul>
@@ -74,7 +74,7 @@
 <li>C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36 &ndash; Capacitors;</li>
 <li>R2, R5 &ndash; Resistors;</li>
 <li>RN1, RN2 &ndash; Resistor Networks;</li>
-<li>U10, U11, U12, U13, U14, U15, U18, U3, U5, U6, U7, U8, U9 &ndash; IC Sockets;</li>
+<li>U10, U11, U12, U13, U14, U15, U18, U3, U5, U6, U7, U8, U9 &ndash; IC/Sockets;</li>
 <li>J4, J5 &ndash; Cartridge connectors;</li>
 <li>SW2 &ndash; Reset microswitch.</li>
 </ul>
