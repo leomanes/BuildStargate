@@ -54,8 +54,10 @@
 <ul>
 <li>Solder the oscillator Y1;</li>
 <li>Close the solder jumpers JP2 and JP3 (right below the oscillator);</li>
+<li>R3, R4, R6; Resistor;</li>
 <li>U16, U4 &ndash; IC sockets;</li>
 <li>U17 &ndash; Tang Nano 20K *</li>
+<img src="basic_parts.jpeg" width="600">
 </ul>
 <p><br /> * <strong>Make sure you program your Tang Nano 20K before running the &ldquo;COLD TEST 2&rdquo;. Refer to Palver&rsquo;s GitHub page:</strong></p>
 <p><strong>github.com/jabadiagm/MSXgoauldSD_tn20k</strong></p>
@@ -64,6 +66,7 @@
 <p>This test will verify if your Stargate can boot with the few basic parts.</p>
 <p>Connect the Stargate to the HDMI monitor and run a boot test. You should boot and land on BASIC.</p>
 <p>You should see the boot screen, but you won&rsquo;t be able to do anything else.</p>
+<img src="boot.jpg" width="600">
 <p>&nbsp;</p>
 <p><strong>STEP 3: GLUE LOGIC + CARTRIDGE SLOTS </strong></p>
 <p>Now we are going to take care of the main glue logic and install the cartridge slots. Solder all the components listed below.</p>
