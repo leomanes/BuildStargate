@@ -72,7 +72,7 @@
 <p>Now we are going to take care of the main glue logic and install the cartridge slots. Solder all the components listed below.</p>
 <ul>
 <li>C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36 &ndash; Capacitors;</li>
-<li>R2, R3, R4, R5, R6 &ndash; Resistors;</li>
+<li>R2, R5 &ndash; Resistors;</li>
 <li>RN1, RN2 &ndash; Resistor Networks;</li>
 <li>U10, U11, U12, U13, U14, U15, U18, U3, U5, U6, U7, U8, U9 &ndash; IC Sockets;</li>
 <li>J4, J5 &ndash; Cartridge connectors;</li>
