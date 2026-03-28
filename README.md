@@ -56,7 +56,7 @@
 <li>Close the solder jumpers JP2 and JP3 (right below the oscillator);</li>
 <li>R3, R4, R6; Resistor;</li>
 <li>U16, U4 &ndash; IC/sockets;</li>
-<li>U17 &ndash; Tang Nano 20K *</li>
+<li>U17 &ndash; Socket + Tang Nano 20K *</li>
 <img src="basic_parts.jpg" width="600">
 </ul>
 <p><br /> * <strong>Make sure you program your Tang Nano 20K before running the &ldquo;COLD TEST 2&rdquo;. Refer to Palver&rsquo;s GitHub page:</strong></p>
