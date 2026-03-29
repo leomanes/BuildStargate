@@ -81,11 +81,54 @@
 <p><strong>&nbsp;</strong></p>
 <p><strong>COLD TEST 3 &ndash; CART SLOT TEST</strong></p>
 <p>First confirm the machine is booting to BASIC like in the previous COLD TEST 2.</p>
-<p>Next, turn the machine on the machine with a cartridge plugged in. Use a regular ROM cart if possible. Not all cartridges are compatible with Goa&rsquo;uld so try something simples first.</p>
+<p>Next, turn the machine on with a cartridge plugged in. Use a regular ROM cart if possible. Not all cartridges are compatible with Goa&rsquo;uld so try something simples first.</p>
 <p>Test both slots.</p>
+<p>( * the Gradiente Expert Tang firmware will not work for the Stargate. Slot 2 will fail among other issues. You need original's Palver's firmware)</p>
 <p>&nbsp;</p>
+<p><strong>STEP 4: JOYSTICK</strong></p>
+<p>Solder the parts listed below:</p>
+<ul>
+<li>U19, U20, U21, U22</li>
+<li>C43 - C46</li>
+<li>F2 - 0.5A</li>
+<li>RN3 e RN4</li>
+<li>J7, J8</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>COLD TEST 4 &ndash; JOYSTICK</strong></p>
+<p>Plug a MSX compatible controller on J7.&nbsp;(***make sure it is a MSX controller or you might blow a fuse or damage your Stargate***)</p>
+<p>Boot Stargate with a cart and test UP,DOWN,LEFT,RIGHT, TRIGGER1,TRIGGER2 on both joystick ports. Make sure the game you select can use joysticks. Sofarun is also an option for testing.</p>
+<p>&nbsp;</p>
+<p><strong>STEP 5: ESP12F</strong></p>
+<p>Solder the parts listed below:</p>
+<ul>
+<li>U24 - ESP12F</li>
+<li>R37=220R for blue led | 470R for other colors) - modern led only. Avoid older used ones. They might prevent the ESP from booting.</li>
+<li>R27 to R39</li>
+<li>D4 - (flat side of the LED connected to the square pad)</li>
+<li>C17 (laying down on the pcb)</li>
+<li>SW3,SW4,SW5,SW6,SW7,SW8,SW9</li>
+<li>J11</li>
+<li>OLED screen (if you are not using a custom 3D case, use a header to plug the oled)</li>
+</ul>
+<p>&nbsp;Now program the ESP using a UART-USB adapter with dupont leads and the ESP Tools.</p>
 <p><strong>&nbsp;</strong></p>
-<p><strong><br /> </strong></p>
+<p><strong>COLD TEST 5 &ndash; ESP12F</strong></p>
+<p>Unplug the UART-USB, make sure JP1 is connected and turn on Stargate.</p>
+<p>The oled needs to display STARGATE.</p>
+<p>&nbsp;</p>
+<p><strong>STEP 6: AUDIO MIXER</strong></p>
+<p>Solder the parts listed below:</p>
+<ul>
+<li>R7-R13</li>
+<li>C37-C41</li>
+<li>J6</li>
+<li>Q1</li>
+<li>RV1 (audio feedback from the cassete and bluetooth while loading games)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>COLD TEST 6 &ndash; AUDIO MIXER</strong></p>
+<p>Verify if audio is present on the RCA jack on the back of the machine. Test with a MSX1 ROM (for PSG) cart and a MSX pico running a SCC game (for cart Audio-IN).</p>
 <p><strong>&nbsp;</strong></p>
 </BODY>
 </HTML>
