@@ -88,7 +88,7 @@
 <p><strong>STEP 4: JOYSTICK</strong></p>
 <p>Solder the parts listed below:</p>
 <ul>
-<li>U19, U20, U21, U22</li>
+<li>U2, U19, U20, U21, U22</li>
 <li>C43 - C46</li>
 <li>F2 - 0.5A</li>
 <li>RN3 e RN4</li>
@@ -129,6 +129,7 @@
 <p>&nbsp;</p>
 <p><strong>COLD TEST 6 &ndash; AUDIO MIXER</strong></p>
 <p>Verify if audio is present on the RCA jack on the back of the machine. Test with a MSX1 ROM (for PSG) cart and a MSX pico running a SCC game (for cart Audio-IN).</p>
+<p>Make sure the option "Disable PSG:" is set to OFF on the OLED settings. 
 <p><strong>&nbsp;</strong></p>
 </BODY>
 </HTML>
